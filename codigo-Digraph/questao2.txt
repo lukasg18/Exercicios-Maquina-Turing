@@ -16,5 +16,5 @@ digraph finite_state_machine {
 	q3 -> initial [label = "(X,X,R)"]
 	
 	q4 -> q4 [label = "(*,*,R)"]
-	q4 -> accept [label = "(B,B,R)"]
+	q4 -> accept [label = "(_,_,R)"]
 }
